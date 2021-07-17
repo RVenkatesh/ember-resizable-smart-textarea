@@ -1,6 +1,8 @@
 @love-open-source/ember-resizable-smart-textarea
 ==============================================================================
 
+[![Build Status](https://travis-ci.com/RVenkatesh/ember-resizable-smart-textarea.svg?branch=main)](https://travis-ci.com/RVenkatesh/ember-resizable-smart-textarea)
+
 This addon provides a textarea component, that resizes when the text inside it changes. Additionally it also highlights the given string inside the textarea.
 
 
