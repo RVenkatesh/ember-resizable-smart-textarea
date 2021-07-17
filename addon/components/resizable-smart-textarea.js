@@ -40,7 +40,6 @@ export default class ResizableSmartTextareaComponent extends Component {
         this.__value = this.$textArea.value;
         this.resizeTextarea();
         // Emit on change event
-        console.log(this.args);
         this.args.onChange && this.args.onChange(this.__value);
     }
     @action

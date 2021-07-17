@@ -12,9 +12,12 @@
     "highlight text textarea",
     "mark text textarea"
   ],
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RVenkatesh/ember-resizable-smart-textarea.git"
+  },
   "license": "MIT",
-  "author": "",
+  "author": "Venkatesh",
   "directories": {
     "doc": "doc",
     "test": "tests"
