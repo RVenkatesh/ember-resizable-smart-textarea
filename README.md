@@ -6,7 +6,7 @@ This addon provides a textarea component, that resizes when the text inside it c
 
 Demo
 ------------------------------------------------------------------------------
-
+Find the [demo](https://rvenkatesh.github.io/ember-resizable-smart-textarea/versions/main/docs/demo) and [documentation](https://rvenkatesh.github.io/ember-resizable-smart-textarea/versions/main/docs/) for this addon [here](https://rvenkatesh.github.io/ember-resizable-smart-textarea/versions/main/).
 
 Compatibility
 ------------------------------------------------------------------------------
@@ -43,10 +43,10 @@ Arguments
 Contributing
 ------------------------------------------------------------------------------
 
-See the [Contributing](CONTRIBUTING.md) guide for details.
+See the [Contributing](https://github.com/RVenkatesh/ember-resizable-smart-textarea/blob/main/CONTRIBUTING.md) guide for details.
 
 
 License
 ------------------------------------------------------------------------------
 
-This project is licensed under the [MIT License](LICENSE.md).
+This project is licensed under the [MIT License](https://github.com/RVenkatesh/ember-resizable-smart-textarea/blob/main/LICENSE.md).

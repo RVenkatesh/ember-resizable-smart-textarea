@@ -44,6 +44,10 @@ jobs:
         - npm install --no-package-lock
       script:
         - npm run test:ember
+    # - stage: "deploy"
+    #   name: "Deploy Github pages"
+    #   if: (branch = master or tag is present) and type = push
+    #   script: node_modules/.bin/ember deploy production
 
     # we recommend new addons test the current and previous LTS
     # as well as latest stable release (bonus points to beta/canary)
