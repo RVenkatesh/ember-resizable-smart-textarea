@@ -1,6 +1,6 @@
 {
   "name": "@love-open-source/ember-resizable-smart-textarea",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An Ember addon for resizable textarea input. It also highlights the given text inside it",
   "keywords": [
     "ember-addon",
