@@ -1,7 +1,11 @@
 @love-open-source/ember-resizable-smart-textarea
 ==============================================================================
 
-[Short description of the addon.]
+This addon provides a textarea component, that resizes when the text inside it changes. Additionally it also highlights the given string inside the textarea.
+
+
+Demo
+------------------------------------------------------------------------------
 
 
 Compatibility
@@ -23,8 +27,18 @@ ember install @love-open-source/ember-resizable-smart-textarea
 Usage
 ------------------------------------------------------------------------------
 
-[Longer description of how to use the addon in apps.]
+To use the smart textarea component in your application, just add the below line. 
+```
+<ResizableSmartTextarea @value={{this.value}} @highlightText="highlight"/>
+```
 
+Arguments
+------------------------------------------------------------------------------
+| Arg | Default value | Description |
+| --- | --- | --- |
+| value | ```''``` | Value of the textarea field |
+| onChange |  | Listener function for value change. The first argument to the function would be the value |
+| highlightText | ```''``` | The string to be highlighted inside the textarea |
 
 Contributing
 ------------------------------------------------------------------------------

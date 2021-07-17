@@ -1,0 +1,38 @@
+.resizable-smart-textarea {
+    text-size-adjust: none;
+    border: 1px solid #ccc;
+    position: relative;
+    .highlight-layer, textarea {
+        font: inherit;
+        word-spacing: inherit;
+        white-space: pre-wrap;
+        overflow-wrap: break-word;
+        width: 100%;
+    }
+    .highlight-layer {
+        color: transparent;
+        height: 100%;
+        position: absolute;
+        // left: 100%;
+        z-index: 1;
+        // Makes the content align with textarea
+        padding: inherit;
+        top: 0;
+        left: 0;
+        mark {
+            color: inherit;
+        }
+    }
+    textarea {
+        appearance: none;
+        background: transparent;
+        padding: 0;
+        border: 0;
+        box-sizing: border-box;
+        outline: none;
+        resize: none;
+        z-index: 2;
+        position: relative;
+        overflow: hidden;
+    }
+}

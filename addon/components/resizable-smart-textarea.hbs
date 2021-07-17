@@ -1,0 +1,11 @@
+<div class="resizable-smart-textarea" ...attributes>
+    <span class="highlight-layer" data-test-highlightLayer {{did-insert this.highlightLayerInserted}}>{{html-safe this.formattedValue}}</span>
+    <Textarea
+        data-test-textareaField
+        @value={{@value}}
+        @keyUp={{this.onChange}}
+        @focusOut={{@onBlur}}
+        {{did-insert this.textFieldInserted}}
+        {{did-update this.textFieldInserted @value}}
+    />
+</div>
